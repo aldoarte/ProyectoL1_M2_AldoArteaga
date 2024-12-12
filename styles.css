@@ -1,0 +1,83 @@
+/* Selector Universal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Paleta de colores del sitio de referencia */
+}
+
+/* Selectores de Elementos */
+h1, h2, h3, h4 {
+    color: #2b2b2b; /* Texto oscuro */
+    margin-bottom: 10px;
+}
+
+p {
+    color: #4a4a4a; /* Texto ligeramente más claro */
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Selector de clase para los párrafos en la sección de "Contacto" */
+footer.contacto p {
+    color: #333333; /* Color más intenso para dar importancia */
+    font-size: 14px;
+}
+
+/* Selector de ID para la sección de "Proyectos Relevantes" */
+#proyectos-relevantes {
+    background-color: #ffffff; /* Fondo blanco */
+    padding: 20px;
+    border: 1px solid #ddd; /* Bordes sutiles */
+    border-radius: 5px;
+}
+
+/* display: inline */
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+/* display: block */
+nav ul {
+    display: block;
+    background-color: #e7e7e7;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para las secciones principales */
+section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Espaciado entre listas de artículos */
+section article {
+    margin-bottom: 20px;
+}
+
+/* Espaciado entre títulos e imágenes en "Proyectos Relevantes" */
+#proyectos-relevantes h4 {
+    margin-bottom: 10px;
+}
+
+#proyectos-relevantes img {
+    display: block;
+    margin-bottom: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Hover para el botón de enviar */
+button:hover {
+    background-color: #007BFF; /* Azul brillante para resaltar */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
